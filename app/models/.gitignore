@@ -1,0 +1,7 @@
+# Les artefacts entraînés (poids de modèle, courbes) sont volumineux et
+# reproductibles depuis app/training/ : on ne versionne pas leur contenu
+# binaire par défaut. Décommentez si vous voulez au contraire les figer
+# dans git (utile en petite équipe sans pipeline CI d'entraînement).
+*/v*/
+*/dernier.txt
+!.gitignore
